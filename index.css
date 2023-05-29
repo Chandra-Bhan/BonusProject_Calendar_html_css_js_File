@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    /* width:99.9vw;
+    height: 90.0vh; */
+}
+.calendarBody{
+   margin-top: 3rem;
+    text-align: center;
+}
+
+.cal{
+    /* border:1px solid; */
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+}
+
+
+
+ .calendar, td, th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    width: 6rem;
+    height: 4rem;
+}
+
+select{
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#inputDate{
+    padding: 10px 10px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+#btnEnter{
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    background-color: rgb(22, 22, 255);
+    color:white;
+    font-weight: bold;
+}
+@media screen and (max-width:736px){
+    select{
+        padding: 1px 3px;
+        font-size: 15px;
+        margin-left: 6px;
+        margin-bottom: 20px;
+    }
+    td, th{
+        width: 1rem;
+        height: 1rem;
+    }
+    #inputDate{
+        padding: 1px 1px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #btnEnter{
+        font-size: 15px;
+        padding: 1px 3px;
+        margin-left: 10px;
+        background-color: rgb(22, 22, 255);
+        color:white;
+    }
+    .calendarBody{
+        margin-top: 5rem;
+         text-align: center;
+     }
+}
